@@ -1,0 +1,1 @@
+export { SearchGameBar } from './SearchGameBar';

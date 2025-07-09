@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  height: 150px;
+  width: 191px;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: 400;
+  overflow: hidden;
+  max-width: 191px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
