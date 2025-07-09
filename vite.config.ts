@@ -13,22 +13,12 @@ export default defineConfig({
       },
     },
   },
-  build: {
-    rollupOptions: {
-      input: './src/index.tsx', // Явно указываем точку входа
-    },
-  },
   plugins: [react()],
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: ` /* Подключение шрифта Roboto */ @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"); `,
+        additionalData: `@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"); `,
       },
-    },
-  },
-  resolve: {
-    alias: {
-      '@': '/src',
     },
   },
 });

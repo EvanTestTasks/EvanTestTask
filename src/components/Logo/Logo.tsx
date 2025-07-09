@@ -1,5 +1,5 @@
 import classes from './Logo.module.css';
-import LogoIcon from '@/assets/LogoIcon.svg';
+import LogoIcon from '../../assets/LogoIcon.svg';
 
 export const Logo = () => {
   return (
