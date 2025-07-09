@@ -13,6 +13,11 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    rollupOptions: {
+      input: './src/index.tsx', // Явно указываем точку входа
+    },
+  },
   plugins: [react()],
   css: {
     preprocessorOptions: {
