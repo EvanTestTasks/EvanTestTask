@@ -6,10 +6,7 @@ import { SearchGameBar } from './components/SearchGameBar';
 import { useGetAllGamesQuery } from './app/services/games';
 
 function App() {
-  const { data, isLoading, error } = useGetAllGamesQuery();
-  console.log('data', data?.result);
-  console.log('isLoading', isLoading);
-  console.log('error', error);
+  const { data } = useGetAllGamesQuery();
 
   return (
     <div className="app">
