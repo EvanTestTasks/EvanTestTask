@@ -14,6 +14,7 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  base: '/EvanTestTask/',
   css: {
     preprocessorOptions: {
       scss: {
