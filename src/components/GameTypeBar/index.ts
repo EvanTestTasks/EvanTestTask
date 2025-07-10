@@ -1,1 +1,0 @@
-export { GameTypeBar } from './GameTypeBar';
