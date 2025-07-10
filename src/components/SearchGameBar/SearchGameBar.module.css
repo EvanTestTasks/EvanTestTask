@@ -20,7 +20,7 @@
 
 .input {
   appearance: none;
-  background: url('@/assets/Glass.svg');
+  background: url('../../assets/Glass.svg');
   background-repeat: no-repeat;
   background-position: left 15px top 50%;
   width: 100%;

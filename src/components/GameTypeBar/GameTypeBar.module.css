@@ -13,7 +13,7 @@
 
 .select {
   appearance: none;
-  background: url('@/assets/SelectArrow.svg');
+  background: url('../../assets/SelectArrow.svg');
   background-repeat: no-repeat;
   background-position: right 16.5px top 50%;
   width: 140px;
